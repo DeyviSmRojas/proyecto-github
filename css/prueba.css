@@ -1,0 +1,436 @@
+/*GENERAL*/
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto Slab', serif; }
+
+hr {
+  margin: 10px 10px; }
+
+/*HEADER*/
+header {
+  padding-bottom: 0px;
+  margin: 10px 10px; }
+
+/*PRINCIPAL*/
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  background: #22c1c3;
+  background: linear-gradient(0deg, rgba(34, 193, 195, 0.894293) 0%, rgba(45, 253, 194, 0.331268) 90%); }
+
+.logo a img {
+  width: 20%;
+  margin: 15px; }
+
+.logo p {
+  padding: 15px;
+  color: #069118;
+  font-weight: bold;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center; }
+
+.logo i {
+  padding: 5px 10px 0px 0px; }
+
+.slider {
+  background-color: #d1e9cd;
+  border: solid 2px #000; }
+
+.sli {
+  margin: 10px 10px; }
+
+.slider img {
+  background-image: url(/img/ladrillo.jpg);
+  background-size: cover;
+  width: 97%;
+  height: 70vh;
+  margin: 20px; }
+
+.articles {
+  padding: 10px 0px 10px 10px; }
+
+.articles h1 {
+  text-align: center;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  font-size: 35px; }
+
+.producto1 {
+  display: flex;
+  margin: 10px 10px; }
+
+.producto1 img {
+  width: 25%;
+  padding: 10px 120px 10px 20px;
+  transition: transform 1s; }
+
+.producto1 img:hover {
+  transform: scale(0.8, 0.9); }
+
+.info1 {
+  display: block;
+  justify-content: center;
+  align-items: center; }
+
+.info1 p {
+  display: flex;
+  text-align: justify;
+  padding-right: 8px;
+  padding-bottom: 15px; }
+
+.info1 h3 {
+  text-align: center;
+  padding-bottom: 30px; }
+
+.info1 a {
+  font-size: 15px;
+  font-weight: bold;
+  padding: 5px;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  border: solid 1px orangered;
+  border-radius: 5px; }
+
+.info1 a:hover {
+  background-color: yellow; }
+
+.producto2 {
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 10px 10px; }
+
+.producto2 img {
+  width: 30%;
+  padding: 10px 20px 10px 130px;
+  transition: transform 1s; }
+
+.producto2 img:hover {
+  transform: scale(0.8, 0.9); }
+
+.info2 {
+  display: block;
+  justify-content: center; }
+
+.info2 a:hover {
+  background-color: yellow; }
+
+.info2 h3 {
+  text-align: center;
+  padding-bottom: 30px; }
+
+.info2 p {
+  display: flexbox;
+  text-align: justify;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-bottom: 15px; }
+
+.info2 a {
+  font-size: 15px;
+  font-weight: bold;
+  padding: 5px;
+  margin-left: 8px;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  border: solid 1px orangered;
+  border-radius: 5px; }
+
+.vermas {
+  text-align: center;
+  padding: 10px 10px;
+  margin-bottom: 15px; }
+
+.vermas a {
+  text-decoration: none;
+  font-size: 20px;
+  padding: 10px 10px;
+  font-weight: bold;
+  border: solid 1px orangered;
+  border-radius: 5px; }
+
+.vermas a:hover {
+  background-color: yellow; }
+
+/* SECCION CLIENTES */
+.clientes {
+  display: block;
+  margin-top: 50px; }
+
+.clientes .titulo {
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px; }
+
+.logo-clientes {
+  display: flex;
+  justify-content: space-around;
+  border: solid 2px;
+  padding: 10px 10px;
+  margin: 20px 10px; }
+
+.logo-clientes img {
+  width: 20%;
+  height: 30vh; }
+
+.menu {
+  margin: 0px 10px 0px 10px;
+  padding: 10px 0px 10px 2px; }
+
+.nav-sticky {
+  position: sticky; }
+
+.menu nav ul {
+  display: flex;
+  justify-content: space-around; }
+
+.menu nav ul li {
+  list-style: none;
+  background: #22c1c3;
+  background: linear-gradient(0deg, rgba(34, 193, 195, 0.894293) 0%, rgba(45, 253, 194, 0.331268) 90%);
+  padding: 12px 12px;
+  border-radius: 5px; }
+
+.menu nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 22px; }
+
+.menu nav ul li a:hover {
+  color: red;
+  border-bottom: solid 3px red; }
+
+.footer {
+  display: flex;
+  border: solid 2px;
+  margin: 10px 10px;
+  justify-content: space-around;
+  align-items: center;
+  color: #020202; }
+
+.footer .redes a i {
+  font-size: 2.5rem;
+  padding: 10px 10px; }
+
+.footer .ubicacion {
+  color: midnightblue;
+  font-weight: bold; }
+
+.footer .copy {
+  color: midnightblue;
+  font-weight: bold; }
+
+.wsp a i {
+  color: #069118;
+  display: flex;
+  font-size: 2.5rem;
+  justify-content: right;
+  position: absolute;
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  background-color: #fff;
+  padding: 3px 3px;
+  border-radius: 16px; }
+
+/*SECCION NOSOTROS*/
+.container {
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 50px; }
+
+.titulo-nosotros {
+  text-align: center;
+  font-weight: bold;
+  font-size: 4rem; }
+
+.menu-nav {
+  border: solid 2px #000;
+  padding: 10px 10px;
+  margin: 10px 100px 10px 80px;
+  width: 100%;
+  height: 50%; }
+
+.nav-nosotros {
+  margin: 20px 20px; }
+
+.menu-nav nav ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between; }
+
+.menu-nav nav ul li a {
+  text-decoration: none;
+  color: teal;
+  font-weight: bolder;
+  text-align: justify;
+  text-align: center; }
+
+.menu-nav nav ul li a:hover {
+  color: navy; }
+
+.menu-nav nav ul li {
+  border: solid 1px green;
+  border-radius: 8px;
+  padding: 10px 5px 10px 5px;
+  margin: 10px 0px 10px 0px;
+  width: 80%;
+  text-align: center; }
+
+.menu-nav nav ul li:hover {
+  background-color: cyan; }
+
+.historia {
+  margin-bottom: 50px; }
+
+.historia h2 {
+  text-align: left;
+  padding-left: 20px; }
+
+.historia p {
+  text-align: justify;
+  padding: 10px 20px; }
+
+.img-historia {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.img-historia img {
+  padding: 0px 0px;
+  border: solid 5px #000;
+  margin-left: 20px;
+  opacity: 0.8;
+  transition: width 2s; }
+
+.img-historia img:hover {
+  transform: scale(1, 1);
+  border: solid 5px royalblue;
+  opacity: 1.5; }
+
+.img-historia p {
+  text-align: justify;
+  padding: 10px 20px; }
+
+/*SECCION PRODUCTOS*/
+/*variables - colores*/
+.body-productos {
+  background: #22c1c3;
+  background: linear-gradient(0deg, rgba(139, 196, 197, 0.561) 0%, rgba(45, 253, 62, 0.0455533) 100%); }
+
+body {
+  background: #46fb3f;
+  background: radial-gradient(circle, rgba(70, 251, 63, 0.370483) 0%, rgba(227, 252, 70, 0.0679622) 100%); }
+
+main h1 {
+  text-align: center;
+  padding: 20px 0px; }
+
+.productos {
+  display: grid;
+  margin: 0px 10px;
+  grid-column-gap: 50px;
+  grid-row-gap: 20px;
+  justify-self: center;
+  align-self: center;
+  align-items: center;
+  grid-template-columns: 2fr 2fr;
+  grid-template-rows: 2fr 2fr; }
+
+.productos div {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border: solid 1px #000;
+  border-radius: 6px;
+  padding: 20px 0px; }
+
+.productos div h2 {
+  color: #490505;
+  margin-bottom: 15px; }
+
+.productos img {
+  width: 40%;
+  transition: transform 0.8s;
+  border-radius: 50px; }
+
+.productos img:hover {
+  transform: scale(0.8, 0.9); }
+
+.productos div a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: cornflowerblue;
+  font-weight: bold;
+  border: solid 1px cornflowerblue;
+  border-radius: 6px;
+  padding: 5px 5px;
+  margin: 15px 300px 0px 300px; }
+
+.productos div a:hover {
+  background-color: sandybrown;
+  color: #18043d;
+  font-weight: bold; }
+
+/*SECCION UBICANOS*/
+.mapa {
+  margin: 0px 100px; }
+
+.mapa img {
+  width: 100%;
+  height: 60vh;
+  border: solid 1px #000; }
+
+.info-ubicacion {
+  margin: 50px 10px;
+  display: flex;
+  justify-content: space-around; }
+
+.info-ubicacion div {
+  text-align: center; }
+
+.info-ubicacion div i {
+  font-size: 5rem; }
+
+.info-ubicacion div p {
+  padding: 3px 0px; }
+
+.info-ubicacion div h2 {
+  padding-top: 40px; }
+
+/*SECCION CONTACTO*/
+.contactanos {
+  display: flex;
+  justify-content: space-around; }
+
+.contacto-main {
+  margin: 0px 10px; }
+
+.formulario {
+  border: solid 1px #000;
+  padding: 10px 10px;
+  width: 30%;
+  text-align: center; }
+
+.form div {
+  display: block;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px 0px; }
+
+.info-contacto div {
+  margin: 20px 0px;
+  text-align: center; }
+
+.info-contacto div i {
+  font-size: 2.5rem; }

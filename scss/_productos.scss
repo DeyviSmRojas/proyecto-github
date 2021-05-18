@@ -1,0 +1,65 @@
+/*variables - colores*/
+$guindo:rgb(73, 5, 5);
+$jade:rgb(34,193,195);
+$verde-claro:rgb(70,251,63);
+
+.body-productos{
+    background: $jade;
+    background: linear-gradient(0deg, rgba(139, 196, 197, 0.561) 0%, rgba(45,253,62,0.04555325548188027) 100%);
+  }
+  body{
+    background: $verde-claro;
+    background: radial-gradient(circle, rgba(70,251,63,0.37048322747067575) 0%, rgba(227,252,70,0.06796221906731448) 100%);
+  }
+  main h1{
+      text-align: center;
+      padding: 20px 0px;
+  }
+  .productos{
+      display: grid;
+      margin: 0px 10px;
+      grid-column-gap: 50px;
+      grid-row-gap: 20px;
+      justify-self: center;
+      align-self: center;
+      align-items: center;
+      grid-template-columns: 2fr 2fr;
+      grid-template-rows: 2fr 2fr;
+  }
+  .productos div{
+      text-align: center;
+      align-items: center;
+      justify-content:center ;
+      border: solid 1px #000;
+      border-radius: 6px;
+      padding: 20px 0px;
+  }
+  .productos div h2{
+      color: $guindo;
+      margin-bottom: 15px;
+  }
+  .productos img{
+      width: 40%;
+      transition: transform 0.8s;
+      border-radius: 50px;
+  }
+  .productos img:hover{
+      transform: scale(0.8,0.9);
+  }
+  .productos div a{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-decoration: none;
+      color: cornflowerblue;
+      font-weight: bold;
+      border: solid 1px cornflowerblue;
+      border-radius: 6px;
+      padding: 5px 5px;
+      margin: 15px 300px 0px 300px;
+  }
+ .productos div a:hover{
+      background-color: sandybrown;
+      color: rgb(24, 4, 61);
+      font-weight: bold;
+  }

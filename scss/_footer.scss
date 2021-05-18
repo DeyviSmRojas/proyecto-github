@@ -1,0 +1,21 @@
+.footer{
+    display: flex;
+    border: solid 2px;
+    margin: 10px 10px;
+    justify-content: space-around;
+    align-items: center;
+    color: rgb(2, 2, 2);
+    
+}
+.footer .redes a i{
+    font-size: 2.5rem;
+    padding: 10px 10px;   
+}
+.footer .ubicacion {
+    color: midnightblue;
+    font-weight: bold;
+}
+.footer .copy {
+    color: midnightblue;
+    font-weight: bold;
+}

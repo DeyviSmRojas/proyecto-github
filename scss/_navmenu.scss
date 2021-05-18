@@ -1,0 +1,30 @@
+.menu{
+    margin: 0px 10px 0px 10px;
+    padding: 10px 0px 10px 2px;
+}
+.nav-sticky{
+    position: sticky;  
+}
+
+.menu nav ul{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.menu nav ul li{
+    list-style: none;
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,0.8942927512801996) 0%, rgba(45,253,194,0.33126754119616597) 90%);
+    padding: 12px 12px;
+    border-radius: 5px;
+}
+.menu nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+}
+.menu nav ul li a:hover{
+    color: red;
+    border-bottom: solid 3px red;
+}

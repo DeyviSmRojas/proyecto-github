@@ -1,0 +1,29 @@
+
+.contactanos{
+    display: flex;
+    justify-content: space-around;
+}
+.contacto-main{
+    margin: 0px 10px;
+}
+.formulario{
+  border: solid 1px #000;
+  padding: 10px 10px;
+  width: 30%;
+  text-align: center;
+}
+.form {
+    div{
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 0px;
+    }
+}
+.info-contacto div{
+    margin: 20px 0px;
+    text-align: center;
+}
+.info-contacto div i{
+    font-size: 2.5rem;
+}

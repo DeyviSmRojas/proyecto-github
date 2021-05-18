@@ -1,0 +1,32 @@
+.historia{
+    margin-bottom:50px ;
+}
+.historia h2{
+  text-align: left;
+  padding-left: 20px;
+}
+.historia p{
+  text-align: justify;
+  padding: 10px 20px;
+}
+.img-historia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-historia img{
+    padding: 0px 0px;
+    border: solid 5px #000;
+    margin-left: 20px;
+    opacity: 0.8;
+    transition: width 2s;
+}
+.img-historia img:hover{
+  transform: scale(1,1);
+  border: solid 5px royalblue;
+  opacity: 1.5;
+}
+.img-historia p{
+    text-align: justify;
+    padding: 10px 20px;  
+}
