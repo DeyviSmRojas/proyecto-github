@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-css": "node-sass --include-path scss scss/estilo.scss css/prueba.css","watch-css": "nodemon -e scss -x \"npm run build-css\""
   },
-  "author": "",
+  "author": "Deyvi salome Rojas",
   "license": "ISC",
   "devDependencies": {
     "node-sass": "^5.0.0",
